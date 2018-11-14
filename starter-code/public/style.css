@@ -1,0 +1,63 @@
+.index-main {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 199, 181)
+}
+
+.h1-index {
+    font-size: 40px;
+    color: white;
+}
+
+.about-main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(125, 199, 181)
+}
+
+.about-h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.text-about {
+    font-size: 20px;
+    color: gray;
+}
+
+.images-main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(125, 199, 181)
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.h1-images {
+    font-size: 40px;
+    color: white;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
